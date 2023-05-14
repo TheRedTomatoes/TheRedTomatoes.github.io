@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(255, 213, 213);
+    
+}
+
+@keyframes Anim {
+    from {
+        transform: translate(-50%, -200%);
+    }
+
+    to {
+        transform: translate(-50%, -50%);
+    }
+}
+
+.Main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: Anim 1s;
+}
+
+
+.Main p {
+    color: black;
+    text-align: center;
+    font-family:serif;
+    
+}
+
+.Main a button {
+    background-color: rgba(255, 130, 130, 0.618);
+    border-style:dashed;
+    border-radius: 1cm;
+    width: 75px;
+}
+
+button:hover {
+    color: rgb(255, 0, 0);
+}
